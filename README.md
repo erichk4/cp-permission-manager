@@ -4,10 +4,6 @@
 
 This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(https://github.com/freshsystems/wp-permission-manager) plugin.
 
-> Note that the ambition for this fork is to strip out all but the role & capability management features (see 'Deprecated Features' below), and to maintain this functionality through future WP releases. If you rely on these features please use an alternative version.
-
-![Screenshot](screenshot-2.png)
-
 ---
 
 ### Roadmap
