@@ -32,15 +32,6 @@ This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(ht
 * **Explicitly Deny Capabilities:** Deny specific caps to specific user roles.
 * **Clone Roles:** Build a new role by cloning an existing role.
 
-### Deprecated Features
-
-Expect the following features to be removed entirely in the near future.
-
-* ~~**Content Permissions:** Gives you control over which users (by role) have access to post content.~~
-* ~~**Shortcodes:** Shortcodes to control who has access to content.~~
-* ~~**Widgets:**  A login form widget and users widget to show in your theme's sidebars.~~
-* ~~**Private Site:** You can make your site and its feed completely private if you want.~~
-
 ---
 
 ## Documentation
