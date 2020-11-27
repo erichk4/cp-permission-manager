@@ -1,0 +1,34 @@
+{
+  "name": "erichk4/cp-permission-manager",
+  "description": "A user role management plugin for WordPress that puts you in full control of your site's permissions.",
+  "keywords": [
+    "classicpress"
+  ],
+  "homepage": "https://github.com/erichk4/cp-permission-manager",
+  "license": "GPL-2.0+",
+  "type": "classicpress-plugin",
+  "authors": [
+    {
+      "name": "Erich Munz",
+      "email": "wuchtl@gmail.com",
+      "homepage": "https://kmedv.net"
+    },
+    {
+      "name": "Fresh Systems",
+      "email": "info@freshsystems.co.uk",
+      "homepage": "https://freshsystems.co.uk"
+    },
+    {
+      "name": "Justin Tadlock",
+      "email": "justintadlock@gmail.com",
+      "homepage": "http://justintadlock.com"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.0",
+    "php": ">=7.2.0"
+  },
+  "support": {
+    "issues": "https://github.com/erichk4/cp-permission-manager/issues"
+  }
+}
