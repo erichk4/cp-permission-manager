@@ -2,9 +2,9 @@
 
 ## [2.2.3] - 2020-12-11
 
-### Changed
+### Added
 
-- Added support for ClassicPress Security Page.
+- Support for ClassicPress Security Page.
 
 ## [2.2.2] - 2020-11-27
 
