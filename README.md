@@ -5,22 +5,6 @@
 This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(https://github.com/freshsystems/wp-permission-manager) plugin.
 
 ---
-
-### Roadmap
-
-<!-- Also see the release [milestones](https://github.com/freshsystems/wp-permission-manager/milestones). -->
-
-#### `v2.2.1`
-
-- [x] ~~Update Composer/package details.~~
-- [x] ~~Update UI visible plugin and menu names (`Members` → `WP Permission Manager`).~~
-- [x] ~~Remove non-functional admin settings pages (i.e. 'Donate').~~
-
-#### `v2.2.2`
-
-- [x] ~~Removed addons pages~~
-
-
 ### Plugin Features
 
 * **Role Manager:** Allows you to edit, create, and delete roles as well as capabilities for these roles.

@@ -1,5 +1,17 @@
 # Change Log
 
+## [2.2.3] - 2020-12-11
+
+### Changed
+
+- Added support for ClassicPress Security Page.
+
+## [2.2.2] - 2020-11-27
+
+### Changed
+
+- Removed addons page.
+
 ## [2.2.1] - 2019-04-19
 
 ### Changed
