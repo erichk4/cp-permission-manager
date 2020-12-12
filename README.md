@@ -2,7 +2,7 @@
 
 **A user role management plugin for WordPress that puts you in full control of your site's permissions.**
 
-This plugin is forked from the last release (`2.2.0`) of the popular [justintadlock/members](https://github.com/justintadlock/members) plugin, before it's codebase was hijacked and turned into a sales pitch for a premium plugin by it's new maintainers. 
+This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(https://github.com/freshsystems/wp-permission-manager) plugin.
 
 ## Documentation
 
