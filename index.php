@@ -3,9 +3,9 @@
  * Plugin Name: CP Permission Manager
  * Plugin URI:  https://github.com/erichk4/cp-permission-manager
  * Description: A user role management plugin for WordPress that puts you in full control of your site's permissions.
- * Version:     2.2.2
+ * Version:     2.2.4
  * Author:      Erich Munz
- * Author URI:  https://kmedv.net
+ * Author URI:  https://github.com/erichk4
  * Text Domain: members
  * Domain Path: /lang
  *
@@ -24,7 +24,6 @@
  * @version   2.2.1
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @author    Fresh Systems Ltd. <info@freshsystems.co.uk>
- * @author    Erich Munz <wuchtl@gmail.com>
  * @copyright Original work Copyright (c) 2009 - 2018, Justin Tadlock
  * @copyright Modified work Copyright (c) 2020, Fresh Systems Ltd.
  * @copyright Modified work Copyright (c) 2020, Erich Munz
@@ -185,6 +184,9 @@ final class Members_Plugin {
 			// Bail.
 			return;
 		}
+
+		// Load update client
+		require_once( $this->dir . 'inc/class_UpdateClient.php' );
 
 		// Load class files.
 		require_once( $this->dir . 'inc/class-capability.php' );

@@ -1,16 +1,58 @@
-# CP Permission Manager
+# WP Permission Manager
 
-**A user role management plugin for ClassicPress that puts you in full control of your site's permissions.**
+**A user role management plugin for WordPress that puts you in full control of your site's permissions.**
 
-This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(https://github.com/freshsystems/wp-permission-manager) plugin.
+This plugin is forked from the last release (`2.2.0`) of the popular [justintadlock/members](https://github.com/justintadlock/members) plugin, before it's codebase was hijacked and turned into a sales pitch for a premium plugin by it's new maintainers. 
+
+> Note that the ambition for this fork is to strip out all but the role & capability management features (see 'Deprecated Features' below), and to maintain this functionality through future WP releases. If you rely on these features please use an alternative version.
+
+![Screenshot](screenshot-2.png)
 
 ---
+
+### Roadmap
+
+<!-- Also see the release [milestones](https://github.com/freshsystems/wp-permission-manager/milestones). -->
+
+#### `v2.2.1`
+
+- [x] ~~Update Composer/package details.~~
+- [x] ~~Update UI visible plugin and menu names (`Members` → `WP Permission Manager`).~~
+- [x] ~~Remove non-functional admin settings pages (i.e. 'Donate').~~
+
+#### `v3.0.0`
+
+- [ ] Remove all 'Shortcodes'.
+- [ ] Remove all 'Widgets'.
+- [ ] Remove all 'Content Permission' functionality.
+- [ ] Remove 'Private Site' functionality.
+- [ ] Bump minumum PHP version requirement to `>= 5.6.2`.
+- [ ] Remove add-ons functionality and maybe incorporate relevant add-ons (license dependant) into the plugin's core.
+
+#### `v4.0.0`
+
+- [ ] Replace remaining "members" terminology (translation text-domain, slug use, etc.).
+- [ ] Replace the plugin's namespace, e.g. `Members\` → `Fresh\PermissionManager\`.
+- [ ] Replace the prefix for all filter/action hook names and functions (deprecate the originals for permanent backwards-compatibility), e.g. `members_register_cap_group()` → `Fresh\PermissionManager\register_cap_group()`, `members_register_cap_groups` → `wppm_register_cap_groups`.
+- [ ] Consider implementing some enhancements proposed in [justintadlock/members - 3.0.0 Milestone](https://github.com/justintadlock/members/milestone/5).
+- [ ] Update `readme.md` documentation and add `readme.txt` files.
+- [ ] Publish to the WordPress Plugin Directory.
+
 ### Plugin Features
 
 * **Role Manager:** Allows you to edit, create, and delete roles as well as capabilities for these roles.
 * **Multiple User Roles:** Give one, two, or even more roles to any user.
 * **Explicitly Deny Capabilities:** Deny specific caps to specific user roles.
 * **Clone Roles:** Build a new role by cloning an existing role.
+
+### Deprecated Features
+
+Expect the following features to be removed entirely in the near future.
+
+* ~~**Content Permissions:** Gives you control over which users (by role) have access to post content.~~
+* ~~**Shortcodes:** Shortcodes to control who has access to content.~~
+* ~~**Widgets:**  A login form widget and users widget to show in your theme's sidebars.~~
+* ~~**Private Site:** You can make your site and its feed completely private if you want.~~
 
 ---
 
@@ -182,4 +224,3 @@ _Note that custom post types are automatically registered as groups with Members
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
 2009&thinsp;&ndash;&thinsp;2018 &copy; [Justin Tadlock](http://justintadlock.com).
-

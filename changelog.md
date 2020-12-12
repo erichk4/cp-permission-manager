@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.2.4] - 2020-12-11
+
+### Added
+
+- Update Client.
+
 ## [2.2.3] - 2020-12-11
 
 ### Added
