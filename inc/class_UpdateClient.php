@@ -26,7 +26,7 @@
     namespace em\PermissionManager;
 
     // EDIT: URL where Update Manager is installed; with trailing slash!
-    const UPDATE_SERVER = 'https://license.kmedv.net';
+    const UPDATE_SERVER = 'https://license.kmedv.net/';
 
     // EDIT: plugin or theme?
     const UPDATE_TYPE = 'plugin';
