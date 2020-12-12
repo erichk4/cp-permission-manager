@@ -8,19 +8,19 @@ This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(ht
 
 ### The relationship of users, roles, and capabilities
 
-This is the most important thing to understand with this plugin.  It's so important that I took the time out of my day to write a complete tutorial on understanding this:  [Users, roles, and capabilities in WordPress](http://justintadlock.com/archives/2009/08/30/users-roles-and-capabilities-in-wordpress).  If you don't understand this concept, you won't understand what this plugin does.  This is not a concept created by the plugin.  This is how it's done in WordPress.
+This is the most important thing to understand with this plugin.  It's so important that I took the time out of my day to write a complete tutorial on understanding this:  [Users, roles, and capabilities in ClassicPress](http://justintadlock.com/archives/2009/08/30/users-roles-and-capabilities-in-wordpress).  If you don't understand this concept, you won't understand what this plugin does.  This is not a concept created by the plugin.  This is how it's done in WordPress.
 
 I highly recommend reading that blog post, but here's the short version:
 
-* **Users** are people that have registered on your site.  I'm sure you already knew that.  In WordPress, users are assigned a specific role.  This role defines what the user can/can't do.
-* **Roles** are a way of grouping users.  Each user on your site will have a specific role.  Roles are a set of capabilities.  It is important to note that **roles are not hierarchical**.  For example, "Administrator" is not higher than "Subscriber" in WordPress.  You could literally give the Subscriber role more capabilities than the Administrator role.  It's very important that you grasp this concept.
+* **Users** are people that have registered on your site.  I'm sure you already knew that.  In ClassicPress, users are assigned a specific role.  This role defines what the user can/can't do.
+* **Roles** are a way of grouping users.  Each user on your site will have a specific role.  Roles are a set of capabilities.  It is important to note that **roles are not hierarchical**.  For example, "Administrator" is not higher than "Subscriber" in ClassicPress.  You could literally give the Subscriber role more capabilities than the Administrator role.  It's very important that you grasp this concept.
 * **Capabilities** give meaning to roles.  It's a permissions system.  They're a way of saying a role *can* do something or a role *can't* do something (e.g., Role A can `edit_posts`, Role B can't `activate_plugins`, etc.).
 
 ### How to use the plugin
 
 This plugin is set up to have a components-based system.  The reason for this is that I don't want to stick everyone with a bunch of features they don't need.  There's no point in using the Role Manger feature if all you need is just a login widget and some shortcodes.  So, it's a *use-only-what-you-want* system.
 
-To activate certain features, look for the "Members" link under your "Settings" menu while in your WordPress admin.  When on the new page, you'll be able to select the features you want to use.
+To activate certain features, look for the "Members" link under your "Settings" menu while in your ClassicPress admin.  When on the new page, you'll be able to select the features you want to use.
 
 I recommend at least activating Role Manager feature.  It is at the heart of this plugin, and many other features will likely require its use in some form.
 
@@ -28,7 +28,7 @@ I recommend at least activating Role Manager feature.  It is at the heart of thi
 
 The Role Manager feature allows you to edit and add new roles as well as add and remove both default capabilities and custom capabilities from roles.  It is an extremely powerful system.
 
-Any changes you make to users and roles using this feature are permanent changes.  What I mean by this is that if you deactivate or uninstall this plugin, the changes won't revert to their previous state.  This plugin merely provides a user interface for you to make changes directly to your WordPress database.  Please use this feature wisely.
+Any changes you make to users and roles using this feature are permanent changes.  What I mean by this is that if you deactivate or uninstall this plugin, the changes won't revert to their previous state.  This plugin merely provides a user interface for you to make changes directly to your ClassicPress database.  Please use this feature wisely.
 
 #### Editing/Adding Roles
 
@@ -170,5 +170,3 @@ _Note that custom post types are automatically registered as groups with Members
 ### Copyright and License
 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
-
-2009&thinsp;&ndash;&thinsp;2018 &copy; [Justin Tadlock](http://justintadlock.com).
