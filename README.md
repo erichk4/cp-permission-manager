@@ -4,8 +4,6 @@
 
 This plugin is forked from the last release (`2.2.0`) of the popular [justintadlock/members](https://github.com/justintadlock/members) plugin, before it's codebase was hijacked and turned into a sales pitch for a premium plugin by it's new maintainers. 
 
-> Note that the ambition for this fork is to strip out all but the role & capability management features (see 'Deprecated Features' below), and to maintain this functionality through future WP releases. If you rely on these features please use an alternative version.
-
 ## Documentation
 
 ### The relationship of users, roles, and capabilities
