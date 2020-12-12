@@ -1,6 +1,6 @@
-# WP Permission Manager
+# CP Permission Manager
 
-**A user role management plugin for WordPress that puts you in full control of your site's permissions.**
+**A user role management plugin for ClassicPress that puts you in full control of your site's permissions.**
 
 This plugin is forked from the release (`2.2.1`) of the WP Permission Manager(https://github.com/freshsystems/wp-permission-manager) plugin.
 
